@@ -9,6 +9,7 @@
 .banner-bg {
     width: 100%;
     height: 100vh;
+    
 }
 
 .banner-container {
@@ -50,7 +51,7 @@
     margin-top: 24px;
     margin-bottom: 0;
 
-    
+
 
 }
 
@@ -67,4 +68,137 @@
     float: right;
     margin-top: 24px;
 
+}
+
+/* Failor section start hare */
+
+.previous-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.failor-pic {
+
+    width: 569px;
+    height: 666.5px;
+    margin-left: 150px;
+
+
+}
+
+.previous-title {
+    margin-left: 87px;
+    margin-right: 322px;
+    margin-top: 160px;
+
+
+}
+
+
+
+.failor-text {
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 288px;
+    flex-direction: column;
+    margin-bottom: 0;
+
+}
+
+.failor-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+    width: 416px;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 0;
+
+}
+
+
+.failor-list {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    display: flex;
+    width: 416px;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+li {
+    list-style-type: none;
+
+
+}
+
+/* plan section start hare */
+.plan {
+    margin-top: 80px;
+
+}
+
+.plan-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plan-row {
+    display: flex;
+    justify-content: center;
+    margin: 135px 230px;
+    margin-top: 0;
+    gap: 150px;
+}
+
+
+.plan-container {
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin: 135px 230px;
+
+}
+
+.plan-all {
+    padding: 80px;
+}
+
+.plantext {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    width: 459px;
+    flex-direction: column;
+
+}
+
+.plan-btn {
+    width: 150px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
 }
